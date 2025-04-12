@@ -1,0 +1,843 @@
+
+/* mobail (small devices) */
+@media screen and (max-width : 567px ) and (min-width : 468px ) {
+    .icon-nav {
+        display:inline-block;
+        width: 10%;
+        height: 100%;
+        margin: 0;
+        vertical-align: middle;
+        color:#111111 ;
+        line-height: 2.1;
+        text-align: center;
+    }
+    body.dark-mode .icon-nav {
+        color :#eeeeee
+    }
+    .navbar-link ,.navbar-link-scroll {
+        padding: 0;
+    }
+    .nav-u {
+        padding-left: 2rem ;
+    }
+    .navbar-link .icon-nav {
+        color :#eeeeee;
+        padding-right: 1rem ;
+
+    }
+    .logo-sait {
+        height: 85%;
+        width: 26%;
+        vertical-align: middle;
+        margin-right: 8rem;
+    }
+    .h-menu , .btn-menu , .nav-u , .Products-section {
+        display: none;
+    }
+    .dark-icon-berger {
+        display: inline-block;
+    }
+    .img1 , .img2 , .img3  ,.m1-slide , .h2-item1 , .h2-item2 ,.m1-item1 ,.m1-item2 , .saidbar , .m2-content , .m3-slide {
+        width: 100%;
+    }
+    .berger-menu-item {
+        display: block;
+        width: 100%;
+        padding-right: 12px;
+        line-height: 2.2;
+    }
+    
+    .berger-menu-item button svg {
+        display: none;
+    }
+    .h-menushow {
+        background-color: #fff;
+        color: rgb(88, 88, 88);
+        width: 100%;
+    }
+    .h-menushow ul li button , .h-menushow ul li a {
+        color: rgb(73, 73, 73);
+        font-size: 13px;
+        font-weight: normal;
+        padding: 15px;
+        padding-bottom: 8px;
+
+    }
+    .submenu-m {
+        display: none !important;
+    }
+    .h-menushow .products {
+        padding-top: 5px;
+    } 
+    .search-berger-menu {
+        display: block;
+        padding: 30px 0px 0px 20px;
+    }
+    .search-berger-menu input {
+            
+        height: 1.9rem;
+        border-radius: inherit;
+        font-size: 0.9rem;
+        outline: none;
+        border: medium;
+        padding: 0px 1.7rem;
+        width:95%;
+        background-color: unset;
+        overflow: visible;
+        border: 1px solid #aaa8a8;
+        border-radius: 20px;
+    }
+    .line-br {
+        height: 1px;
+        background-color: #eeeeee;
+        display: inline-block;
+    
+    }
+    .ul-menu .hot-menu-spacing{
+        display: none;
+    }
+    .social-media-berger , .mobail-Products-section {
+        display: block;
+    }
+    .social-media-berger a {
+        padding-right: 7.9rem;
+    }
+    .first-icon-br {
+        padding-right: 2rem !important;
+    }
+    .img1-p {
+        right: 4rem;
+    }
+    .content1 p {
+        margin-bottom: 25px;
+    }
+    .h2-item2 {
+        margin-top: 25px;
+    }
+    .h2-slide {
+        width: calc(calc(100%/5) + 1px );
+    }
+    .mobail-Products-section {
+        margin: auto;
+        margin-top: 2rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .m1-slide {
+        margin-left: 0;
+    }
+    .m1-slides {
+        padding-left: 0;
+    }
+    .line-t {
+        width: 85%;
+    }
+    .m1-item2 img {
+        width: 100%;
+        height: 13rem;
+    }
+    .m1-item2 :last-child {
+        display: none;
+    }
+    .m2 {
+        background-image: none;
+        height: 4000px;
+        overflow: hidden;
+    }
+    .s-m2 {
+        padding-left: 0;
+    }
+    .img1-p2 {
+        font-size: 1.4rem;
+    }
+    .img1-icon {
+        right: 25px;
+    }
+    .img1-p2-k {
+        font-size: 0.9rem;
+    }
+    .m2-dis-fl {
+        padding-right: 15rem;
+    }
+
+    .m2-dis2-fl {
+        padding-right: 2rem;
+    }
+    .m2-item4 .title {
+        width: 73%;
+    }
+    .m2-item5 .img1-p2-k {
+        font-size: 1.1rem;
+    }
+    .m2-item5 .m2-dis2-fl {
+        padding-right: 7rem;
+    }
+    .btn-video {
+        margin-right: 2.1rem;
+    }
+    .m2-item6-in .m2-social-media {
+        margin-right: 0.3rem;
+    }
+    .m2-item6-in .m2-6-content {
+        padding: 2rem 1rem;
+    }
+    .m2-item6-in .div-mg {
+        margin-right: 0.4rem;
+    }
+    .btn-link-m2 .padding-r-19 {
+        padding-right: 0.1rem;
+    }
+    .btn-link-m2 {
+        overflow: hidden;
+        height: 2.2rem;
+    }
+    .m2-content {
+        padding-right: 1rem;
+        margin-top: 35px;
+        height: 1090 !important;
+    }
+    .m2-con-items {
+        width: 99%;
+    }
+    .m2-con-discription {
+        width: 75%;
+    }
+
+    .m3 {
+        margin-top: 80px;
+    }
+    .btn-link-m3 .padding-r-19 {
+        padding-right: 15px !important;
+    }
+    .btn-link-m3 {
+        overflow: hidden;
+        height: 2.2rem;
+    }
+    footer {
+        padding-top: 1rem;
+        background-image: none;
+    }
+    body.dark-mode footer {
+        background-image: none;
+    }
+    .f {
+        padding-top: 0;
+    }
+    .f1-title {
+        display: block;
+    }
+    .f1-line-red {
+        margin-bottom: 2.2rem;
+    }
+    .f1-li {
+        margin-bottom: 0.5rem;
+    }
+    .f1-item1 , .f1-item2 {
+        width: 47%;
+    }
+    .f1-item1-col1 {
+        width: 100%;
+    }
+    .f1-ul1 , .f1-line , .f1-item1-col2 .f1-item1-title{
+        display: none !important;
+    }
+    .f1-ul2 {
+        display: block;
+        margin-top: 2rem
+    }
+    .f1-ul2 li {
+        border-right: #cfcece solid 1px ;
+        padding-right: 0.5rem;
+    }
+
+    .pars-pak , .core-zoomit {
+        display: inline-block !important;
+        width: 49%;
+    }
+    .f1-link {
+        display: none;
+    }
+    .mobail-f1-link {
+        display: inline-block;
+        color: 383e43;
+    }
+    .f1-item4 , .f1-item5 {
+        display: block;
+    }
+    .f2 {
+        margin-top: 2.4rem;
+    }
+    
+    .row-f2 {
+        width: 98%;
+    }
+    .f2-col {
+        width: 100%;
+        margin-right: 0;
+    }
+    .social-media-icon {
+        display: none;
+    }
+
+}
+
+/* Tablet (medium devices) */
+@media screen and (max-width : 768px ) and (min-width : 568px ) {
+    .icon-nav {
+        display:inline-block;
+        width: 10%;
+        height: 100%;
+        margin: 0;
+        vertical-align: middle;
+        color:#111111 ;
+        line-height: 2.1;
+        text-align: center;
+    }
+    body.dark-mode .icon-nav {
+        color :#eeeeee
+    }
+    .navbar-link .icon-nav {
+        color :#eeeeee
+
+    }
+    .logo-sait {
+        height: 85%;
+        width: 26%;
+        vertical-align: middle;
+        margin-right: 10rem;
+    }
+    .h-menu , .btn-menu , .nav-u {
+        display: none;
+    }
+    .dark-icon-berger {
+        display: inline-block;
+    }
+    .img1 , .img2 , .img3  ,.m1-slide , .h2-item1 , .h2-item2 ,.m1-item1 ,.m1-item2 , .saidbar , .m2-content , .m3-slide {
+        width: 100%;
+    }
+    .berger-menu-item {
+        display: block;
+        width: 100%;
+        padding-right: 12px;
+        line-height: 2.2;
+    }
+    
+    .berger-menu-item button svg {
+        display: none;
+    }
+    .h-menushow {
+        background-color: #fff;
+        color: rgb(88, 88, 88);
+        width: 100%;
+    }
+    .h-menushow ul li button , .h-menushow ul li a {
+        color: rgb(73, 73, 73);
+        font-size: 13px;
+        font-weight: normal;
+        padding: 15px;
+        padding-bottom: 8px;
+
+    }
+    .submenu-m {
+        display: none !important;
+    }
+    .h-menushow .products {
+        padding-top: 5px;
+    } 
+    .search-berger-menu {
+        display: block;
+        padding: 30px 0px 0px 20px;
+    }
+    .search-berger-menu input {
+            
+        height: 1.9rem;
+        border-radius: inherit;
+        font-size: 0.9rem;
+        outline: none;
+        border: medium;
+        padding: 0px 1.7rem;
+        width:96%;
+        background-color: unset;
+        overflow: visible;
+        border: 1px solid #aaa8a8;
+        border-radius: 20px;
+    }
+    .line-br {
+        height: 1px;
+        background-color: #eeeeee;
+        display: inline-block;
+    
+    }
+    .ul-menu .hot-menu-spacing{
+        display: none;
+    }
+    .social-media-berger {
+        display: block;
+
+    }
+    .social-media-berger a {
+        padding-right: 10.2rem;
+    }
+    .first-icon-br {
+        padding-right: 2rem !important;
+    }
+    .img1-p {
+        right: 6rem;
+    }
+    .content1 p {
+        margin-bottom: 25px;
+    }
+    .h2-item2 {
+        margin-top: 25px;
+    }
+    .h2-slide {
+        width: calc(calc(100%/5) + 1px );
+    }
+
+    .m1-slide {
+        margin-left: 0;
+    }
+    .m1-slides {
+        padding-left: 0;
+    }
+    .line-t {
+        width: 87%;
+    }
+    .m1-item2 img {
+        width: 49%;
+    }
+    .m2 {
+        background-image: none;
+        height: 4000px;
+        overflow: hidden;
+    }
+    .s-m2 {
+        padding-left: 0;
+    }
+    .img1-icon {
+        right: 3rem;
+    }
+    .img1-icon2 {
+        right: 2rem;
+    }
+    .m2-item5 .img1-icon2 {
+        right: 1rem;
+    }
+    .m2-dis-fl {
+        padding-right: 17rem;
+    }
+    .m2-dis2-fl {
+        padding-right: 3rem;
+    }
+    
+    .btn-link-m2 {
+        overflow: hidden;
+        height: 2.2rem;
+    }
+    .btn-video {
+        margin-right: 9.1rem;
+    }
+    .m2-content {
+        padding-right: 1rem;
+        margin-top: 35px;
+    }
+    .m2-con-items {
+        width: 90%;
+    }
+    .m2-con-discription {
+        width: 75%;
+    }
+    .m2-social-media {
+        margin-right: 1rem;
+    }
+    .m3 {
+        margin-top: 80px;
+    }
+    .btn-link-m3 .padding-r-19 {
+        padding-right: 15px !important;
+    }
+    .btn-link-m3 {
+        overflow: hidden;
+        height: 2.2rem;
+    }
+    footer {
+        padding-top: 3rem;
+    }
+    .f1-item1 , .f1-item2 {
+        width: 47%;
+    }
+    .f1-item1-title {
+        margin-bottom: 1rem;
+    }
+    .f1-item1-col1 {
+        width: 100%;
+    }
+    .f1-item1-col2 {
+        margin-top: 2rem;
+    }
+    .f1-link {
+        display: none;
+    }
+    .mobail-f1-link {
+        display: inline-block;
+        color: 383e43;
+    }
+    .f2 {
+        margin-top: 2rem;
+    }
+    .f2-col {
+        width: 100%;
+    }
+    .social-media-icon {
+        margin-right: 6rem;
+        margin-top: 1rem;
+    }
+
+}
+
+
+/* Desktop (large devices) */
+@media screen and (max-width : 992px) and (min-width : 769px ) {
+    .h-menu {
+        margin-right: 3rem;
+    }
+    .ul-menu :nth-child(9) , .ul-menu :nth-child(10) , .ul-menu :nth-child(11) ,.ul-menu :nth-child(12) {
+        display: none;
+    }
+    .h-menu li {
+        padding: 0px 0.4rem;
+    }
+    .navbar-link {
+        padding: 0px 1.4rem;
+
+    }
+    .img1 , .img2 , .img3 , .h2-item1 , .h2-item2 ,.m1-item1 ,.m1-item2 , .saidbar , .m2-content {
+        width: 100%;
+    }
+    .m1-slide {
+        width: 50%;
+    }
+    .img1-p {
+        right: 20%;
+        left: 20%;
+    }
+    .content1 , .h2-item1 , .content1 p {
+        margin-bottom: 1rem;
+    }
+    .line-t {
+        width: 90.8%;
+    }
+    .m1-item2 img {
+        width: 49%;
+    }
+    .m2 {
+        background-image: none;
+        height: 5208px;
+        overflow: hidden;
+    }
+    .s-m2{
+        padding-left: 0;
+
+    }
+    .m2-slide .img1-icon2 {
+        right: 2rem;
+    }
+    .m2-item5 .m2-dis2-fl {
+        padding-right: 5rem;
+
+    }
+    .img1-icon2 {
+        right: 2rem;
+    }
+
+    .m2-dis2-fl {
+        padding-right: 8.5rem;
+    }
+    .m2-dis-fl {
+        padding-right: 32.5rem;
+    }
+    
+    .btn-video {
+        margin-right: 19rem;
+    }
+    .m2-content {
+        margin-top: 3rem;
+        height: 2100px;
+    }
+    .m2-con-item {
+        width: 98%;
+    }
+    .m2-con-discription {
+        width: 75%;
+    }
+
+    .m3-slide {
+        width: 50%;
+    }
+    
+    .btn-link-m3 {
+        overflow: hidden;
+        height: 2.2rem;
+    }
+    .f1-item1 {
+        width: 78%;
+    }
+    .f1-item2 {
+        width: 15%;
+    }
+    .f1-link {
+        display: none;
+    }
+    .mobail-f1-link {
+        display: inline-block;
+        color: 383e43;
+    }
+    .f2-col {
+        line-height: 4;
+    }
+    .social-media-icon {
+        margin-right: 8rem;
+
+    }
+}
+
+/* TV (Extra Large devices) */
+@media screen and (max-width : 1100px) and (min-width : 993px ) {
+    .h-menu li {
+        padding-right: 0;
+    }
+    .img1-p {
+        right: 27px;
+    }
+    .h2-item1 {
+        margin-left: 4rem;
+    }
+    .h2-item2 {
+        width: 60%;
+    }
+    .h2-slide {
+        width: calc(calc(100%/5) + 1px );
+    }
+    .width-90 {
+        width: 85%;
+    }
+
+    .m1-item1 .width-95 {
+        width: 91.6%;
+    }
+    .m1-item2 img{
+        width: 49%;
+    }
+    .btn-link-m2 {
+        overflow: hidden;
+        height: 2rem;
+    }
+    .m2 {
+        height: 3091px;
+    }
+    .m2-content {
+        height: 3058px;
+    }
+    .m2-item4 .title {
+        width: 74%;
+    }
+    .m2-con-discription {
+        width: 76.3%;
+    }
+    .m2-dis-fl {
+        padding-right: 14.5rem;
+        display: inline-block;
+    }
+    .m2 .m2-item5 .m2-dis2-fl {
+        padding-right: 7rem;
+    }
+    .m2 .m2-dis2-fl {
+        padding-right: 2rem;
+    }
+    .f1-item1 {
+        width: 41%;
+    }
+    .f1-link {
+        margin-left: 0.5rem;
+        margin-right: 0.1rem;
+    }
+    .f1-item2 {
+        width: 56%;
+    }
+    .mr-445 {
+        margin-right: 5rem;
+    }
+    .btn-video {
+        margin-right: 3rem;
+    }
+    .m2-6-content {
+        padding: 2rem 1rem;
+    }
+    .div-mg {
+        margin-right: 0.2rem;
+    }
+
+}
+
+@media screen and (max-width : 1200px) and (min-width : 1101px ) {
+    .h-menu li {
+        padding-right: 0;
+    }
+    .img1-p {
+        right: 27px;
+    }
+    .h2-item1 {
+        margin-left: 4rem;
+    }
+    .h2-item2 {
+        width: 60%;
+    }
+    .h2-slide {
+        width: calc(calc(100%/5) + 1px );
+    }
+    .width-90 {
+        width: 87%;
+    }
+
+    .m1-item1 .width-95 {
+        width: 91.6%;
+    }
+    .m1-item2 img{
+        width: 49%;
+    }
+    .btn-link-m2 {
+        overflow: hidden;
+        height: 2rem;
+    }
+    .m2 {
+        height: 3117px;
+    }
+    .m2-content {
+        height: 3117.5px;
+    }
+    .m2-con-discription {
+        width: 76.3%;
+    }
+    .m2-item4 .title {
+        width: 75%;
+    }
+    .m2-dis-fl {
+        padding-right: 16.5rem;
+        display: inline-block;
+    }
+    .m2 .m2-item5 .m2-dis2-fl {
+        padding-right: 7rem;
+    }
+    .m2 .m2-dis2-fl {
+        padding-right: 3rem;
+    }
+    .f1-item1 {
+        width: 41%;
+    }
+    .f1-item2 {
+        width: 57%;
+    }
+    .f1-link {
+        margin-left: 0.5rem;
+        margin-right: 0.1rem;
+    }
+
+    .mr-445 {
+        margin-right: 11rem;
+    }
+    .btn-video {
+        margin-right: 8rem;
+    }
+    .m2-6-content {
+        padding: 2rem 1rem;
+    }
+    .div-mg {
+        margin-right: 0.6rem;
+    }
+    .m2-social-media {
+        margin-right: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width : 1350px) and (min-width : 1201px ) {
+    .h-menu li {
+        padding-right: 0;
+    }
+    .img1-p {
+        right: 27px;
+    }
+    .h2-item1 {
+        margin-left: 4rem;
+    }
+    .h2-item2 {
+        width: 60%;
+    }
+    .h2-slide {
+        width: calc(calc(100%/6) + 1px );
+    }
+    .width-90 {
+        width: 87%;
+    }
+
+    .m1-item1 .width-95 {
+        width: 91.6%;
+    }
+    .m1-item2 img{
+        width: 49%;
+    }
+    .btn-link-m2 {
+        overflow: hidden;
+        height: 2rem;
+    }
+    .m2 {
+        height: 3277px;
+    }
+    .m2-content {
+        height: 3195.5px;
+    }
+    .m2-con-discription {
+        width: 76.3%;
+    }
+    .m2-item4 .title {
+        width: 75%;
+    }
+    .m2-dis-fl {
+        padding-right: 20.5rem;
+        display: inline-block;
+    }
+    .m2 .m2-item5 .m2-dis2-fl {
+        padding-right: 7rem;
+    }
+    .m2 .m2-dis2-fl {
+        padding-right: 5rem;
+    }
+    .f1-item1 {
+        width: 48%;
+    }
+    .f1-item2 {
+        width: 50%;
+    }
+    .f1-link {
+        margin-left: 0.7rem;
+        margin-right: 0.1rem;
+    }
+
+    .mr-445 {
+        margin-right: 18rem;
+    }
+    .btn-video {
+        margin-right: 11rem;
+    }
+    .m2-6-content {
+        padding: 2rem 1rem;
+    }
+    .div-mg {
+        margin-right: 0.6rem;
+    }
+    .m2-social-media {
+        margin-right: 0.5rem;
+    }
+
+}
